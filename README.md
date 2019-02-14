@@ -2,9 +2,7 @@
   <img src="./img/TAB_logotype_orange.png" width="70%">
 </p>
 
-# TAB Technical Test
-
-# 🛠 The Challenge
+# 🛠 TAB Technical Challenge
 
 Please build an app to showcase a small sample of some of the amazing work TAB has delivered over the years.
 
@@ -15,14 +13,14 @@ You are required to show the list of TAB case studies available [here](./endpoin
 https://
 ```
 
-> ℹ️ Please build the app as if it were production software.
+# 👫 Requirements
 
-The requirements are broken down into two user stories:
+The requirements are broken down into two [user stories](https://en.wikipedia.org/wiki/User_story):
 
 * **TAB-001:** As a user, I want to see a list of case studies with an image and teaser.
 * **TAB-002:** As a user, I want to read the full article when I select a case study from the list.
 
-While completing these user stories, you may wish to commit your code to a local Git repository. But don't worry if you don't know what that means.
+While completing these user stories, you may wish to commit your code to a local Git repository.
 
 When you are done, please send via email the zipped up directory containing your project.
 
@@ -30,7 +28,7 @@ When you are done, please send via email the zipped up directory containing your
 
 If you make intermediate commits to a local repository, the most important thing is that you are proud of the code submitted at the end. Don't worry about the code cleanliness or robustness of earlier commits.
 
-Please structure the code so that this app may be easily extended and maintained in the future. There is no need to leave comments in the code, as long as the code is self-documenting.
+Please structure the code as you would for a production app that will be extended and maintained in the future. There is no need to leave comments in the code, as long as the code is self-documenting.
 
 # 🔗 Example
 
@@ -61,11 +59,11 @@ The acceptance criteria are intentionally vague, because we want to see your int
 * Images should be displayed in-line in the article, as they appear in the JSON. Images are given as a simple JSON object with the single key `"image_url"`.
 * The user should be able to easily return to the full list of case studies (delivered in TAB-001).
 
-# 👶 Dependencies
+# 👾 Dependencies
 
 Please complete the test without the use of third-party dependencies. We want you to demonstrate your knowledge and experience of the iOS eco-system.
 
-# 🎨 Putting your stamp on it
+# ✨ Putting your stamp on it
 
 No designs are provided. As such, you can put your own creative stamp on the delivered software. You are encouraged to add any nice touches that you feel showcase your abilities. However, the most important thing is that your code works, it is well structured and it meets the acceptance criteria laid out above.
 
