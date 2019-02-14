@@ -63,7 +63,7 @@ The acceptance criteria are intentionally vague, because we want to see your int
 
 Please complete the test without the use of third-party dependencies. We want you to demonstrate your knowledge and experience of the iOS eco-system.
 
-# ✨ Putting your stamp on it
+# 🎨 Putting your stamp on it
 
 No designs are provided. As such, you can put your own creative stamp on the delivered software. You are encouraged to add any nice touches that you feel showcase your abilities. However, the most important thing is that your code works, it is well structured and it meets the acceptance criteria laid out above.
 
