@@ -65,6 +65,10 @@ The acceptance criteria are open to your interpretation and creativity. If in do
 * Body text is given as a string in the `"body_elements"` array.
 * In-line images are represented as JSON objects with a single key `"image_url"`. These should be displayed in-line as they appear between text in the JSON.
 
+# 🚀 Starter code
+
+You may wish to use incomplete model parsing code from [./src/Article.swift](./src/Article.swift).
+
 # 👾 Dependencies
 
 Please complete the test without the use of third-party dependencies. We want you to demonstrate your knowledge and experience of the iOS eco-system.
