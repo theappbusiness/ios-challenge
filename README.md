@@ -32,32 +32,38 @@ Please structure the code as you would for a production app that will be extende
 
 # 🔗 Example
 
-You can see an example of how our case studies appear on the [TAB website](https://www.theappbusiness.com/work). However, we expect the user experience to vary between a mobile app and the website. Please put your own stamp on the project and make something the looks and feels great on the target operating system.
+You can see an example of how our case studies appear on the [TAB website](https://www.theappbusiness.com/work). However, we expect the user experience to vary between a mobile app and the website. Please put your own stamp on the project to make something that looks and feels great on the target operating system.
 
 > ℹ️ A good place to start is to look at the JSON and the website together. You will see how the keys in the JSON relate to the content on the website. By doing this, you will see the keys that you will need to use to deliver your solution. There are additional keys in the JSON that you are not required to make use of.
 
 # ✅ Acceptance Criteria
 
-The acceptance criteria are intentionally vague, because we want to see your interpreation and your creativity.
+The acceptance criteria are open to your interpretation and creativity. If in doubt, do what feels right or ask for clarification.
 
 ## TAB-001
 
-* Fetch/refresh the list of case studies from the URL provided.
-* The user should see the list of case study articles as per the array value for the `"case_studies"` key in the JSON.
-* For each article in the list, the hero image should be displayed in the list, available from the URL value provided for the `"hero_image"` key.
-* For each article in the list, the teaser text should be displayed as per the `"teaser"` key in the JSON.
+* When opening the app, the user should see the list of case studies available in the JSON at the given URL.
+* The user should see the list of case studies as per the array value for the `"case_studies"` key in the JSON.
+* For each case study in the list, the user should see:
+  * a hero image, available from the URL value provided for the `"hero_image"` key;
+  * teaser text as per the `"teaser"` key in the JSON.
 
 ## TAB-002
 
 * The user can navigate to read a full article by selecting a case study from the list.
-* For the full article, the hero image should be displayed as per the `"hero_image"` key.
-* For the full article, the title should be displayed as per the `"title"` key.
-* For each article, the body content should be displayed as per the array value for the `"sections"` key.
-* For each section, the title (if provided in the JSON) should be displayed in a strong font weight to distinguish from the body text. It is read from the section's `"title"` key.
-* Each section has a list of body elements (either text or image). These are read from the `"body_elements"` key.
-* Text should be displayed in a light font weight to disinguish from the section's title. Text is given as a string in the `"body_elements"` array.
-* Images should be displayed in-line in the article, as they appear in the JSON. Images are given as a simple JSON object with the single key `"image_url"`.
+* For the full article, the user should see:
+  * a hero image, available from the URL value provided for the `"hero_image"` key;
+  * the title as per the `"title"` key;
+  * body content broken into sections, as per the array value for the `"sections"` key;
+* For each section of body content, the user should see:
+  * the section title (if provided in the JSON). This should be in a strong font weight to distinguish it from body text. It is read from the section's `"title"` key;
+  * a list of body elements (either text or images). These are read from the `"body_elements"` key.
 * The user should be able to easily return to the full list of case studies (delivered in TAB-001).
+
+### Additional notes for TAB-002
+
+* Body text is given as a string in the `"body_elements"` array.
+* In-line images are represented as JSON objects with a single key `"image_url"`. These should be displayed in-line as they appear between text in the JSON.
 
 # 👾 Dependencies
 
