@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./img/TAB_logotype_orange.png" width="70%">
+  <img src="./assets/TAB_logotype_orange.png" width="70%">
 </p>
 
 # 🛠 TAB Technical Challenge
