@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/TAB_logotype_orange.png" width="70%">
+  <img src="./assets/logo/TAB_logotype_orange.png" width="70%">
 </p>
 
 
