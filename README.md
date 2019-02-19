@@ -10,7 +10,7 @@ You are required to show the list of TAB case studies available [here](./endpoin
 
 **Fetch from the following URL:**
 ```
-https://
+https://raw.githubusercontent.com/theappbusiness/ios-challenge/master/endpoints/v1/caseStudies.json
 ```
 
 # 👫 Requirements
