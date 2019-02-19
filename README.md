@@ -2,6 +2,11 @@
   <img src="./assets/TAB_logotype_orange.png" width="70%">
 </p>
 
+
+Thank you for applying to join our team at TAB! We'd now like to see an example of how you work.
+
+> 👋 If you haven't applied yet, please do so via www.theappbusiness.com/careers. We cannot accept submitted code without a prior application.
+
 # 🛠 TAB Technical Challenge
 
 Please build an app to showcase a small sample of some of the amazing work TAB has delivered over the years.
